@@ -1,0 +1,26 @@
+2 ! length along vector a1
+2 ! length along vector a2
+2.0 ! beta the inverse temperature
+0.5 ! mu chemical potential
+0.5 ! t hopping
+1.0 ! tp hopping
+1.75 ! Jz
+10000 ! nbins number of bins
+1 ! msteps monte carlo steps per bin
+1 ! sqmeas how often to measure structure factor ()
+2 ! isteps thermalization steps
+34359 ! iseedd seed for the generator of random numbers for the mc run
+15285 ! disseed seed for the generation of disorder configuration
+0.0 ! delta: disorder bound
+14.40 ! constant to make the hamiltonian positive definite
+0.0 ! amplitude of the superlattice potential
+0.00 ! strenght of the optical trap
+1 ! yes=1 no=0 measure local density
+200 ! samples to estimate error of n_o and nk
+0 ! initialize from mfield density. 0 random initialization
+1  ! nqv how many q points
+3.14159265 ! kmax considered in the momentum distribution along x
+1 ! 0 computes nk only along x direction. 1 full momentum distribution
+0 ! 0: directed loops. 1 heat bath solution
+500  ! coefficient for maximum loop length maxloop=mloopc*<n>
+0 ! restart (0 from scratch) 1 (restart calculation)

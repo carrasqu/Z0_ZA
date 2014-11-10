@@ -1,0 +1,2 @@
+openmpif90 -O3  read.f90   dpsort.o fdump.o  i1mach.o j4save.o random.o xercnt.o xerhlt.o xermsg.o xerprn.o xersve.o xgetua.o -o get.x  -framework vecLib
+
